@@ -76,19 +76,19 @@ guidata(hObject, handles);
 % Display Assembly picture on the GUI
 axis image
 axes(handles.finalAssemblyImage);
-assemblyPicture = imread('Z:\2018\MCG4322A\Digital Files\BSAE-3B\GUI Images\Assembly.jpg');
+assemblyPicture = imread('D:\git-roguextech\EricHaggar\Baja-SAE-Parametrization\GUI Images\Assembly.jpg');
 imshow(assemblyPicture);
 
 % Display SAE Logo
 axis image
 axes(handles.SAELogo);
-saeLogo = imread('Z:\2018\MCG4322A\Digital Files\BSAE-3B\GUI Images\SAE Logo.png');
+saeLogo = imread('D:\git-roguextech\EricHaggar\Baja-SAE-Parametrization\GUI Images\SAE Logo.png');
 imshow(saeLogo);
 
 % Display uOttawa Logo
 axis image
 axes(handles.uottawaLogo);
-uottawaLogo = imread('Z:\2018\MCG4322A\Digital Files\BSAE-3B\GUI Images\uOttawa Logo.jpg');
+uottawaLogo = imread('D:\git-roguextech\EricHaggar\Baja-SAE-Parametrization\GUI Images\uOttawa Logo.jpg');
 imshow(uottawaLogo);
 
 % Initialize driver mass
@@ -117,7 +117,7 @@ set(handles.figure1,'Name','BSAE-3B // CADCAM 2018');
 
 %Add the 'subfunctions' folder to the path so that subfunctions can be
 %accessed
-addpath('Z:\2018\MCG4322A\Digital Files\BSAE-3B\Programming');
+addpath('D:\git-roguextech\EricHaggar\Baja-SAE-Parametrization\Programming');
 
 
 % --- Outputs from this function are returned to the command line.
